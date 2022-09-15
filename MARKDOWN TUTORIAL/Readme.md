@@ -10,7 +10,6 @@
 *This text* is italic
 
 _This text also_ italic
-
 <!-- Strong -->
 
 **this text** is strong
