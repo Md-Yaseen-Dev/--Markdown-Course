@@ -90,37 +90,3 @@ def add (num1,num2):
 * [x] Task 2
 * [ ] Task 3
 
-<style>
-        .city {
-          background-color: yellow;
-          color: rgb(0, 0, 0);
-          border: 2px solid red;
-          margin: 25px;
-          padding: 20px;
-        }
-        .note{
-            color:blue
-        }
-        </style>
-        </head>
-        <body>
-        
-        <div class="city">
-         <span class  = "note"> <h2>London</h2></span>
-          <p>London is the capital of England.</p>
-        </div>
-        
-        <div class="city">
-        <span class  = "note">  <h2>Paris</h2></span>
-          <p>Paris is the capital of France.</p>
-        </div>
-        <div class="city">
-          <span class  = "note"><h2>Tokyo</h2></span>
-          <p>Tokyo is the capital of Japan.</p>
-        </div>
-        <div class ="city">
-            <span class  = "note"><h2>INDIA</h2></span>
-            <p>Delhi is the capital of India</p>
-            
-        </div>
-    
