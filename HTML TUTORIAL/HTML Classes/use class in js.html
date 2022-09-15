@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class in javascript</title>
+    <h2>Use of the class Attribute in javascript</h2>
+    <p>Click the button to hide all elements with class "city"</p>
+  </head>
+  <body>
+    <button onclick="myfunction()">hide elements</button>
+    <h2 class="city">Amaravati</h2>
+    <p>Amaravati is the captial of Andhra Pradesh</p>
+    <h2 class="city">Chennai</h2>
+    <p>Chennai is the captial of Tamilnadu</p>
+    <h2 class="city">Thiruvananthapuram</h2>
+    <p>Thiruvananthapuram is the captial of kerla</p>
+    <script>
+      function myfunction(){
+             var x = document .getElementsByClassName("city")
+             for(var i =0; i < x.length; i++){
+                document.write(city[i])
+             }
+         }
+    </script>
+  </body>
+</html>
