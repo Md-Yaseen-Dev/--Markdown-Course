@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different images Depending on browser width.html</title>
+
+    <!-- The HTML <picture> element allows you to define different images for different browser window sizes.
+
+Resize the browser window to see how the image below changes depending on the width:
+ -->
+</head>
+<body>
+    <picture>
+        <source srcset="../img/walkimage.jpg" media="(max-width: 500px)">
+        <source srcset="../img/Quotefancy-82341-3840x2160.jpg" media="(max-width: 1000px)">
+        <img src="../img/download.jpg" alt="walk" style="width: 500px;">
+      </picture>
+    
+</body>
+</html>
