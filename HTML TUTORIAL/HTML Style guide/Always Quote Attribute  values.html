@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Always quote Atttribute values</title>
+
+    <!-- HTML allows attribute values wothout quotes -->
+
+    <!-- However, wer recommend quoting attribute values, because: -->
+
+    <!-- Developers normallly quote attribute values -->
+    <!-- Quoted values are easier to read
+     -->
+
+    <!-- You must use quotes if the value contain spaces -->
+  </head>
+  <body>
+    <table class="strip"></table><!-- Good-->
+    <table class="strip"></table>
+    <!-- Bad-->
+    <table class= table strip></table><!--  very bad . this will not work, because the value contains spaces-->
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessing HTML element with javascript</title>
+
+    <!-- Using "untidy"  HTML code can result in javascript errors.-->
+
+    <!-- These two JavaScript statements will produce different results:
+
+ -->
+</head>
+<body>
+    <p id="Demo">This is paragraph 1.</p>
+<p id="demo">This is paragraph 2.</p>
+
+<script>
+// Only paragraph 2 will be overwritten
+document.getElementById("demo").innerHTML = "HELLO.";
+</script>
+
+</body>
+</html>
