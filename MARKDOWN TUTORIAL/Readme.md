@@ -78,6 +78,12 @@ def add (num1,num2):
 
 ```
 
+```html
+<h1>this is heading </h1>
+<p> this is paragraph </p>
+
+```
+
 <!-- Tables -->
 | Name     | Email              |
 |----------|--------------------|
