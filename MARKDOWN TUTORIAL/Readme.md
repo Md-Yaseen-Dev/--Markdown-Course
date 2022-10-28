@@ -57,6 +57,7 @@ ___
  <!-- Images -->
  ![Markdown Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW2-C8W3layIgzqG5_ATbATJ08RAbfI21cVw&usqp=CAU)
 
+<img src ="https://www.whatsappimages.in/wp-content/uploads/2021/07/Top-HD-sad-quotes-for-whatsapp-status-in-hindi-Pics-Images-Download-Free.gif" width = "50%" height = 200/>
  <!-- Github Markdown -->
 
  <!-- Code blocks -->
